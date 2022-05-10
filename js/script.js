@@ -158,7 +158,8 @@ window.onload = function () {
         submenu_div.css('height', 0);
         submenu_div.css('border-bottom-width', 0);
 
-        // 포커스 해제
+        // 포커스 해제        
+        submenu_box.hide();        
         gnb_li.removeClass('gnb-li-active');
     }
 
